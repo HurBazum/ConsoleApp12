@@ -78,10 +78,7 @@ namespace ConsoleApp12
         }
         public D(object idOfD, int choiceLetter, string s)
         {
-            if (idOfD is string || idOfD is int)
-            {
-                Id = (U)idOfD;
-            }
+            Id = (U)idOfD;
             switch (choiceLetter)
             {
                 case 0:
