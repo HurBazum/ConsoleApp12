@@ -127,7 +127,7 @@ namespace ConsoleApp12
                 if (choice == 1)
                 {
                     Id = cds.Count;
-                    D<C, int> dc = new D<C, int>(1, 1, "h");
+                    D<C, int> dc = new D<C, int>(Id, 1, "h");
                 }
                 i++;
             } while (i < 2);
